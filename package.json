@@ -1,0 +1,42 @@
+{
+  "name": "hangout-swap-user",
+  "version": "0.1.0",
+  "description": "it allows you to swap to your secondary Google account with no hassle.",
+  "scripts": {
+    "build": "cp src/main.js chrome-extension/base.js && cross-zip chrome-extension"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com:sirLisko/hangout-swap-user.git"
+  },
+  "keywords": [
+    "hangout",
+    "swap user",
+    "chrome-extension"
+  ],
+  "author": "Luca Lischetti <sirlisko@gmail.com> (http://sirlisko.com)",
+  "bugs": {
+    "url": "https://github.com:sirLisko/hangout-swap-user/issues"
+  },
+  "homepage": "https://github.com:sirLisko/hangout-swap-user",
+  "dependencies": {
+    "cross-zip-cli": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.14.0",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.1"
+  },
+  "eslintConfig": {
+    "extends": [
+      "standard"
+    ],
+    "plugins": [
+      "standard"
+    ],
+    "env": {
+      "browser": true
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+	"name": "Hangout swap user",
+	"version": "0.1.0",
+	"description": "it allows you to swap to your secondary Google account with no hassle.",
+	"manifest_version": 2,
+	"content_scripts": [
+		{
+			"matches": [
+				"https://hangouts.google.com/*"
+			],
+			"js": ["base.js"]
+		}
+	],
+	"icons": {
+		"16": "icons/icon16.png",
+		"48": "icons/icon48.png",
+		"128": "icons/icon128.png"
+	}
+}
