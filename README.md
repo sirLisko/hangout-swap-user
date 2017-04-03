@@ -15,7 +15,10 @@
   * ***IE***: Install [Trixie](http://www.bhelpuri.net/Trixie/).
   * ***Opera***: Follow instructions located on Opera's site: [User JS](http://www.opera.com/docs/userjs/).
 
-2. Install the user script simply clicking here: [Hangout Swap User](https://github.com/sirLisko/hangout-swap-user/raw/master/hangoutSwap.user.js).
+2. Install the user script simply clicking here: [Hangout Swap User](https://github.com/sirLisko/hangout-swap-user/raw/master/hangoutSwap.user.js`).
 
-### Note
+## In action
+![screenshot](./images/screen-shot.png)
+
+## Note
 This project is only a **working** draft, I am not responsible of the poor quality of the code :)
