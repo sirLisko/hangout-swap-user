@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "description": "it allows you to swap to your secondary Google account with no hassle.",
   "scripts": {
-    "build": "cp src/main.js chrome-extension/base.js && cross-zip chrome-extension"
+    "build": "cp src/main.js chrome-extension/base.js && cross-zip chrome-extension",
+    "postinstall": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
     "url": "https://github.com:sirLisko/hangout-swap-user/issues"
   },
   "homepage": "https://github.com:sirLisko/hangout-swap-user",
+  "license": "MIT",
   "dependencies": {
     "cross-zip-cli": "^1.0.0"
   },
